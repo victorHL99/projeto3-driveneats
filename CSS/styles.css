@@ -2,12 +2,18 @@ body {
     box-sizing: border-box;
     position: absolute;
 
+    width: 100%;
+    height: auto;
+
 }
 
 /****************  CABEÇALHO DA PAGINA  *******************/
 header {
     width: 414px;
     height: 92px;
+
+    top: 0;
+    left: 0;
 
 
     background-color: rgba(207, 43, 43, 1);
@@ -17,6 +23,8 @@ header {
 
     display: block;
     flex-wrap: nowrap;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header_titulo {
@@ -65,5 +73,57 @@ header {
 
     display: flex;
     position: absolute;
+
+}
+
+
+/****************  CONTÉUDO DA PAGINA  *******************/
+
+
+/****************  RODAPÉ DA PAGINA  *******************/
+
+footer {
+    width: 414px;
+    height: 92px;
+
+    left: 0;
+    bottom: 0;
+
+    background-color: rgba(255, 255, 255, 1);
+
+    position: absolute;
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>nav {
+    width: 364px;
+    height: 61px;
+
+    left: 25px;
+    bottom: 16px;
+
+    background-color: rgba(203, 203, 203, 1);
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+
+    color: #FFFFFF;
 
 }
