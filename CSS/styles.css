@@ -8,7 +8,7 @@ body {
 
 }
 
-.pagina{
+.pagina {
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -90,12 +90,98 @@ header {
     background-color: yellow;
 
     margin-left: 0;
+}
+
+.conteudo_principal {
+
+    width: 1300px;
+    height: 220px;
+
+    background-color: green;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    overflow-x: scroll;
 
 
 }
 
 .prato-principal {
     overflow-x: scroll;
+
+}
+
+.prato-principal-model {
+    width: 172px;
+    height: 216px;
+
+    background-color: aquamarine;
+
+    margin-left: 19px;
+
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.prato-principal-model>img {
+    width: 144px;
+    height: 87px;
+
+    margin-top: 18px;
+    margin-bottom: 8px;
+
+    border-radius: 4px;
+}
+
+.nome-prato{
+    width: 139px;
+    height: 23px;
+
+    margin-bottom: 4px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal ;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(51, 51, 51, 1);
+    
+}
+
+.descrição-prato{
+    width: 147px;
+    height: 39px;
+
+    margin-bottom: 5px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(166, 166, 166, 1);
+}
+
+.preço-prato{
+    width: 66px;
+    height: 19px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 
 }
 
@@ -107,9 +193,10 @@ header {
 .sobremesa {
     overflow-x: scroll;
 
-    margin-bottom: 93px;
+    margin-bottom: 108px;
 
 }
+
 .conteudo_titulo {
     width: 320px;
     height: 25px;
@@ -129,20 +216,7 @@ header {
     color: #333333;
 }
 
-.conteudo_principal {
-    
-    width: 1000px;
-    height: 220px;
 
-    background-color: green;
-
-    display: flex;
-    flex-wrap: wrap;
-
-    overflow-x: scroll;
-
-
-}
 
 .prato-1 {
     width: 172px;
@@ -166,7 +240,8 @@ footer {
     left: 0;
     bottom: 0;
 
-    background-color: red;
+    background-color: rgba(255, 255, 255, 1);
+
 
     position: absolute;
     position: fixed;
@@ -176,7 +251,7 @@ footer {
     align-items: center;
 }
 
-footer > nav {
+footer>nav {
     width: 364px;
     height: 61px;
 
@@ -184,6 +259,7 @@ footer > nav {
     left: 0;
 
     background-color: rgba(203, 203, 203, 1);
+
     border-radius: 50px;
 
     display: flex;
