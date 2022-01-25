@@ -1,0 +1,69 @@
+body {
+    box-sizing: border-box;
+    position: absolute;
+
+}
+
+/****************  CABEÇALHO DA PAGINA  *******************/
+header {
+    width: 414px;
+    height: 92px;
+
+
+    background-color: rgba(207, 43, 43, 1);
+
+    position: absolute;
+    position: fixed;
+
+    display: block;
+    flex-wrap: nowrap;
+}
+
+.header_titulo {
+    width: 248px;
+    height: 44px;
+
+    margin-top: 8px;
+    margin-bottom: 40px;
+    margin-right: 145px;
+    margin-left: 21px;
+
+
+
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+
+    color: rgba(255, 255, 255, 1);
+
+    display: flex;
+    position: absolute;
+
+
+}
+
+.header_subtitulo {
+    width: 226px;
+    height: 17px;
+
+    margin-top: 57px;
+    margin-bottom: 18px;
+    margin-right: 167px;
+    margin-left: 21px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: rgba(255, 255, 255, 1);
+
+
+    display: flex;
+    position: absolute;
+
+}
