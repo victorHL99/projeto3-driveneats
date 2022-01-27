@@ -11,6 +11,7 @@ body {
 .pagina {
     overflow-x: hidden;
     overflow-y: scroll;
+    background-color: #e5e5e5;
 }
 
 /****************  CABEÇALHO DA PAGINA  *******************/
@@ -87,17 +88,17 @@ header {
     width: AUTO;
     height: auto;
 
-    background-color: yellow;
+    background-color: #e5e5e5;
 
     margin-left: 0;
 }
 
 .conteudo_principal {
 
-    width: 1300px;
+    width: 870px;
     height: 220px;
 
-    background-color: green;
+    background-color: #e5e5e5;
 
     display: flex;
     flex-wrap: wrap;
@@ -116,19 +117,21 @@ header {
     width: 172px;
     height: 216px;
 
-    background-color: aquamarine;
+    background-color: rgba(255, 255, 255, 1);
+
 
     margin-left: 19px;
+    margin-right: 10px;
+
 
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
 
-    margin-right: 10px;
 
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    
 
 }
 
@@ -138,31 +141,33 @@ header {
 
     margin-top: 18px;
     margin-bottom: 8px;
+    margin-left: 14px;
 
     border-radius: 4px;
 }
 
-.nome-prato{
+.nome-prato {
     width: 139px;
     height: 23px;
 
     margin-bottom: 4px;
+    margin-left: 15px;
 
     font-family: 'Roboto', sans-serif;
-    font-style: normal ;
+    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
 
     color: rgba(51, 51, 51, 1);
-    
+
 }
 
-.descrição-prato{
+.descrição-prato {
     width: 147px;
     height: 39px;
 
-    margin-bottom: 5px;
+    margin-left: 14px;
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -173,9 +178,13 @@ header {
     color: rgba(166, 166, 166, 1);
 }
 
-.preço-prato{
+.preço-prato {
     width: 66px;
     height: 19px;
+
+    margin-left: 14px;
+    margin-bottom: 13px;
+    margin-top: 5px;
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -203,6 +212,25 @@ header {
 
     margin-left: 19px;
     margin-top: 123px;
+    margin-bottom: 17px;
+
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+
+
+    color: #333333;
+}
+
+.conteudo_titulo-normal {
+    width: 320px;
+    height: 25px;
+
+    margin-left: 19px;
+    margin-top: 27px;
     margin-bottom: 17px;
 
     font-family: 'Righteous', cursive;
