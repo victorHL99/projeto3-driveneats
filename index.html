@@ -19,6 +19,7 @@
     <!-- Folha de estilos-->
     <link rel="stylesheet" href="/CSS/styles.css">
 
+
     <title>DrivenEats</title>
 </head>
 
@@ -40,31 +41,43 @@
             <div class="prato-principal">
                 <div class="conteudo_principal">
 
-                    <div class="prato-principal-model">
-                        <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
-                        <div class="nome-prato">Frango Yin Yang</div>
-                        <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
-                        <div class="preço-prato">R$ 23,99</div>
+                    <div class="prato-model-principal prato1" onclick="selecionarPratoPrincipal('prato1')"
+                        data-identifier="dishes">
+                        <button>
+                            <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
+                            <div class="nome-prato">Nigiri Tradicional</div>
+                            <div class="descrição-prato">Um tradicional nigiri, com peixes japoneses</div>
+                            <div class="preço-prato">R$ 22,90</div>
+                        </button>
                     </div>
 
-                    <div class="prato-principal-model">
-                        <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
-                        <div class="nome-prato">Frango Yin Yang</div>
-                        <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
-                        <div class="preço-prato">R$ 23,99</div>
+                    <div class="prato-model-principal prato2" onclick="selecionarPratoPrincipal('prato2')"
+                        data-identifier="dishes">
+                        <button>
+                            <img src="/imagens/jow-couve (2).jpg" alt=" Imagem de Jow de couve">
+                            <div class="nome-prato">Jow de Couve</div>
+                            <div class="descrição-prato">Fatia de salmão enrolada com couve</div>
+                            <div class="preço-prato">R$ 28,99</div>
+                        </button>
                     </div>
 
-                    <div class="prato-principal-model">
-                        <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
-                        <div class="nome-prato">Frango Yin Yang</div>
-                        <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
-                        <div class="preço-prato">R$ 23,99</div>
+                    <div class="prato-model-principal prato3" onclick="selecionarPratoPrincipal('prato3')"
+                        data-identifier="dishes">
+                        <button>
+                            <img src="/imagens/hot roll (1).jpg" alt="Imagem Hot Roll">
+                            <div class="nome-prato">Hot Roll</div>
+                            <div class="descrição-prato">Sushi empanado e frito, bem crocante</div>
+                            <div class="preço-prato">R$ 31,90</div>
+                        </button>
                     </div>
-                    <div class="prato-principal-model">
-                        <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
-                        <div class="nome-prato">Frango Yin Yang</div>
-                        <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
-                        <div class="preço-prato">R$ 23,99</div>
+                    <div class="prato-model-principal prato4" onclick="selecionarPratoPrincipal('prato4')"
+                        data-identifier="dishes">
+                        <button>
+                            <img src="/imagens/sashimi (1).jpg" alt="Imagem Sashimi ">
+                            <div class="nome-prato">Sashimi de Salmão</div>
+                            <div class="descrição-prato">Fatias de sashimi de salmão bem servida </div>
+                            <div class="preço-prato">R$ 35,90</div>
+                        </button>
                     </div>
 
                 </div>
@@ -77,29 +90,41 @@
             <div class="bebida">
                 <div class="conteudo_principal">
 
-                    <div class="prato-principal-model">
-                        <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
-                        <div class="nome-prato">Frango Yin Yang</div>
-                        <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
-                        <div class="preço-prato">R$ 23,99</div>
+                    <div class="prato-model-bebida bebida1" onclick="selecionarBebida('bebida1')"
+                        data-identifier="drinks">
+
+                        <button><img src="/imagens/agua com gas (1).jpg" alt="Imagem de água com gás ">
+                            <div class="nome-prato">Água com gás</div>
+                            <div class="descrição-prato">Água com gás do topo do himalaia</div>
+                            <div class="preço-prato">R$ 5,99</div>
+                        </button>
                     </div>
-                    <div class="prato-principal-model">
-                        <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
-                        <div class="nome-prato">Frango Yin Yang</div>
-                        <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
-                        <div class="preço-prato">R$ 23,99</div>
+                    <div class="prato-model-bebida bebida2" onclick="selecionarBebida('bebida2')"
+                        data-identifier="drinks">
+                        <button>
+                            <img src="/imagens/cocacola (1).jpg" alt="Imagem coca cola">
+                            <div class="nome-prato">Coca Cola</div>
+                            <div class="descrição-prato">Coca Cola geladinha pelas calotas polares</div>
+                            <div class="preço-prato">R$ 8,99</div>
+                        </button>
                     </div>
-                    <div class="prato-principal-model">
-                        <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
-                        <div class="nome-prato">Frango Yin Yang</div>
-                        <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
-                        <div class="preço-prato">R$ 23,99</div>
+                    <div class="prato-model-bebida bebida3" onclick="selecionarBebida('bebida3')"
+                        data-identifier="drinks">
+                        <button>
+                            <img src="/imagens/nigiri.jpg" alt="imagem cerveja Antartica a boa">
+                            <div class="nome-prato">Cerveja Antartica</div>
+                            <div class="descrição-prato">A cerveja do universitário</div>
+                            <div class="preço-prato">R$ 6,99</div>
+                        </button>
                     </div>
-                    <div class="prato-principal-model">
-                        <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
-                        <div class="nome-prato">Frango Yin Yang</div>
-                        <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
-                        <div class="preço-prato">R$ 23,99</div>
+                    <div class="prato-model-bebida bebida4" onclick="selecionarBebida('bebida4')"
+                        data-identifier="drinks">
+                        <button>
+                            <img src="/imagens/nigiri.jpg" alt="Imagem garrafa de sake ">
+                            <div class="nome-prato">Garrafa de Sake</div>
+                            <div class="descrição-prato">Garrafa de Sake importado</div>
+                            <div class="preço-prato">R$ 17,50</div>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -110,29 +135,41 @@
             <div class="sobremesa">
                 <div class="conteudo_principal">
 
-                    <div class="prato-principal-model">
-                        <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
-                        <div class="nome-prato">Frango Yin Yang</div>
-                        <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
-                        <div class="preço-prato">R$ 23,99</div>
+                    <div class="prato-model-sobremesa sobremesa1 " onclick="selecionarSobremesa('sobremesa1')"
+                        data-identifier="desserts">
+                        <button onclick="selecionarCaixa()">
+                            <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
+                            <div class="nome-prato">Frango Yin Yang</div>
+                            <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
+                            <div class="preço-prato">R$ 23,99</div>
+                        </button>
                     </div>
-                    <div class="prato-principal-model">
-                        <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
-                        <div class="nome-prato">Frango Yin Yang</div>
-                        <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
-                        <div class="preço-prato">R$ 23,99</div>
+                    <div class="prato-model-sobremesa sobremesa2" onclick="selecionarSobremesa('sobremesa2')"
+                        data-identifier="desserts">
+                        <button>
+                            <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
+                            <div class="nome-prato">Frango Yin Yang</div>
+                            <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
+                            <div class="preço-prato">R$ 23,99</div>
+                        </button>
                     </div>
-                    <div class="prato-principal-model">
-                        <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
-                        <div class="nome-prato">Frango Yin Yang</div>
-                        <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
-                        <div class="preço-prato">R$ 23,99</div>
+                    <div class="prato-model-sobremesa sobremesa3 " onclick="selecionarSobremesa('sobremesa3')"
+                        data-identifier="desserts">
+                        <button>
+                            <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
+                            <div class="nome-prato">Frango Yin Yang</div>
+                            <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
+                            <div class="preço-prato">R$ 23,99</div>
+                        </button>
                     </div>
-                    <div class="prato-principal-model">
-                        <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
-                        <div class="nome-prato">Frango Yin Yang</div>
-                        <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
-                        <div class="preço-prato">R$ 23,99</div>
+                    <div class="prato-model-sobremesa sobremesa4 " onclick="selecionarSobremesa('sobremesa4')"
+                        data-identifier="desserts">
+                        <button>
+                            <img src="/imagens/nigiri.jpg" alt="Imagem Nigiri ">
+                            <div class="nome-prato">Frango Yin Yang</div>
+                            <div class="descrição-prato">Um pouco de batata, um pouco de salada</div>
+                            <div class="preço-prato">R$ 23,99</div>
+                        </button>
                     </div>
 
                 </div>
@@ -141,13 +178,15 @@
 
         <!-- RODAPÉ-->
         <footer>
-            <nav>
-                <p>Selecione os 3 itens
+            <button class="botao-pedido" onclick="ativarBotao()">
+                <p class="texto-pedido">Selecione os 3 itens
                     para fechar o pedido</p>
-            </nav>
+            </button>
+        
         </footer>
     </div>
 
+    <script src="/scripts.js"></script>
 </body>
 
 </html>

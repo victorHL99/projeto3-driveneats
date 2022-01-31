@@ -5,6 +5,7 @@ body {
     height: auto;
 
     overflow-x: hidden;
+    background-color: #e5e5e5;
 
 }
 
@@ -96,7 +97,7 @@ header {
 .conteudo_principal {
 
     width: 870px;
-    height: 220px;
+    height: auto;
 
     background-color: #e5e5e5;
 
@@ -113,7 +114,7 @@ header {
 
 }
 
-.prato-principal-model {
+.prato-model-principal {
     width: 172px;
     height: 216px;
 
@@ -131,11 +132,77 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+
 
 }
 
-.prato-principal-model>img {
+.prato-model-bebida {
+    width: 172px;
+    height: 216px;
+
+    background-color: rgba(255, 255, 255, 1);
+
+
+    margin-left: 19px;
+    margin-right: 10px;
+
+
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.prato-model-sobremesa {
+    width: 172px;
+    height: 216px;
+
+    background-color: rgba(255, 255, 255, 1);
+
+
+    margin-left: 19px;
+    margin-right: 10px;
+
+
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.prato-model-principal>img {
+    width: 144px;
+    height: 87px;
+
+    margin-top: 18px;
+    margin-bottom: 8px;
+    margin-left: 14px;
+
+    border-radius: 4px;
+}
+
+.prato-model-bebida>img {
+    width: 144px;
+    height: 87px;
+
+    margin-top: 18px;
+    margin-bottom: 8px;
+    margin-left: 14px;
+
+    border-radius: 4px;
+}
+
+.prato-model-sobremesa>img {
     width: 144px;
     height: 87px;
 
@@ -244,25 +311,32 @@ header {
     color: #333333;
 }
 
-
-
-.prato-1 {
-    width: 172px;
-    height: 216px;
-
-    background-color: indigo;
-
-    margin-right: 10px;
-
-
-
+button{
+    border: none;
 }
+
+.selecionado-prato {
+    border: 4px solid  rgba(50, 183, 47, 1);
+    ;
+    border-radius: 9px;
+
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+}
+
+.selecionado-bebida {
+    border: 4px solid  rgba(50, 183, 47, 1);
+    ;
+}
+
+.selecionado-sobremesa {
+    border: 4px solid  rgba(50, 183, 47, 1);
+}   
 
 
 /****************  RODAPÉ DA PAGINA  *******************/
 
 footer {
-    width: 414px;
+    width: 100%;
     height: 92px;
 
     left: 0;
@@ -279,11 +353,10 @@ footer {
     align-items: center;
 }
 
-footer>nav {
+footer  button {
     width: 364px;
     height: 61px;
 
-    bottom: 16px;
     left: 0;
 
     background-color: rgba(203, 203, 203, 1);
@@ -298,7 +371,7 @@ footer>nav {
     overflow-x: hidden;
 }
 
-footer p {
+footer  p {
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -312,4 +385,26 @@ footer p {
 
     position: absolute;
 
+}
+
+.botao-pedido-final{
+}
+
+.mudarbutton {
+    width: 364px;
+    height: 61px;
+
+    left: 0;
+
+    background-color: rgba(50, 183, 47, 1);
+    ;
+
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    overflow-x: hidden;
 }
